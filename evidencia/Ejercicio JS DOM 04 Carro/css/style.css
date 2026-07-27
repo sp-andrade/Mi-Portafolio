@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    background-color: rgb(23, 53, 126);
+}
+
+.tag {
+    font-size: 1rem;
+    background-color: black;
+    border-radius: 5px;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.product-card {
+    background: white;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 55% 45%;
+    height: 88%;
+    border-radius:50px;
+    width: 30%;
+    box-shadow: 10px 10px 25px 0px #45597d;
+}
+
+.product-image {
+    background-image: url("https://www.ford.com.co/content/dam/Ford/website-assets/latam/co/nameplate/new-mustang/2024/overview/colorizer/azul-capri/fco-nameplate-color-azul-capri.jpg.dam.full.high.jpg/1713458060037.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.product-description {
+    background-color: #081534;
+    color: white;
+    height: 120%;
+    border-radius: 0 0 20px 20px;
+    padding-left: 20px;
+    margin-top: -60px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.product-image img {
+    width: 28rem;
+}
+
+.stars {
+    color: yellow;
+    font-size: 1em;
+    margin-top:-25px;
+    margin-left: 120px;
+}
+
+.color-price {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.colors {
+    display: flex;
+    width: 6rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.red {background: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.gray {background: grey;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.black {background: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.pricing {
+    display: flex;
+    flex-direction:column-reverse;
+}
+
+.old-price {
+    font-weight: 100;
+}
+
+button {
+    cursor: pointer;
+}
+
+#button {
+    background-color: black;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+#white button {
+    background-color: #fff;
+    color: black;
+}
+
+.button-text {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.feedback {
+    display: none;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
