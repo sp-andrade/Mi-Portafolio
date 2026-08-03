@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="registroForm" class="card">
+            <h1>Registro de Aprendiz</h1>
+
+            <label>Nombre Completo</label>
+            <input type="text" id="nombre" placeholder="Ej. Sergio Andrade" required>
+
+            <label>Correo Electrónico</label>
+            <input type="email" id="correo" placeholder="Ej. sergio@correo.com" required>
+
+            <label>Rol en la Plataforma</label>
+            <select id="rol" required>
+                <option value="">Selecciona un rol...</option>
+                <option>Administrador</option>
+                <option>Desarrollador</option>
+                <option>Diseñador</option>
+            </select>
+
+            <button type="submit">Registrar Usuario</button>
+        </form>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="check">✓</div>
+
+            <h2>¡Usuario Registrado!</h2>
+            <p>Esta pantalla se cerrará automáticamente...</p>
+
+            <hr>
+
+            <div class="info">
+                <p><strong>Nombre:</strong> <span id="mNombre"></span></p>
+                <p><strong>Correo:</strong> <span id="mCorreo"></span></p>
+                <p><strong>Rol:</strong> <span id="mRol"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
+

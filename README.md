@@ -1,5 +1,5 @@
 
-# Hola, soy Sergio Andrade 😼.
+# Hola, Soy Sergio Andrade.
 
     Estudiante y Desarrollador Web en formación.
 
